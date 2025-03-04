@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Registartion Form</title>
+    </head>
+    <body style="background-color: violet;">
+        <center><u><h1 style="color:rgb(30, 33, 210);">Registartion form</h1></u></center>
+        <h2 style="color:blue;">Personal Details</h2>
+        <form>
+            <b><label for="Username">Username</label></b><br>
+            <input type="text" id="Username" required><br><br>
+            <b><label for="Password">Password</label></b><br>
+                  <input type="Password" id="Password" required><br><br>
+            <b><label for="Emal">Email</label></b><br>
+            <input type="Email" id="Email" placeholder="Enter the mail" autocomplete="off"><br><br>
+            <b><labe for="contact">Contact</labe><br>
+            <b><input type="number" id="contact"></b><br><br>
+           <b><label for="Gender">Gender</label></b><br>
+            <label for="male">male</label>
+            <input type="radio" id="male" name="Gender">
+            <label for="female">female</label>
+            <input type="radio" id="female" name="Gender"><br><br>
+            <b><labe for="Date">Date of Birth</labe><br></b>
+            <b><input type="date" id="Date"></b><br>
+            <h2 style="color:blue;">Educational qualification</h2>
+            <b><label for="Engineering">Engineering</label></b>
+            <select>
+                <option >civil</option>
+                <option>mechanical</option>
+                <option>cSA</option>
+                </select><br>
+                <b><label for="Degree">Degree</label></b>
+                <select>
+                    <option >BSc</option>
+                    <option>Bcom</option>
+                    <option>BCA</option>
+            </select><br><br>
+            <br><label for="Hobbies">Hobbies</label></br>
+        <input type="checkbox" name="hobby" id="Playing chess">
+            <label for="Playing chess">Playing chess</label>
+            <input type="checkbox" name="hobby" id="Reading books">
+            <label for="Reading books">Reading books</label>
+            <input type="checkbox" name="hobby" id="playing cricket">
+            <label for="playing cricket">playing cricket</label>
+            <input type="checkbox" name="hobby" id="watching movies">
+            <label for="watching movies">Watching movies</label>
+            <h2 style="color:blue;">Address</h2>
+            <textarea rows="4"></textarea><br><br>
+            Attach Resume
+            <input type="file" name="resume"><br><br>
+            <div class="submit-btn">
+                <button type="submit" style="color:green;">SUBMIT</button>
+            </div>
+            <div class="reset-btn">
+                <button type="reset" style="color:rgb(128, 0, 73);">RESET</button>
+            </div>
+
+        
+            
+            
+        </form>
+    </body>
+</html>
